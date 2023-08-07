@@ -43,9 +43,9 @@ print(saldo1)
 
 # LÓGICOS
 
-saldo1 >= saldo or saldo1 <= saque 
+#saldo1 >= saldo or saldo1 <= saque 
 
-saldo1 >= saldo and saldo1 <= saque 
+#saldo1 >= saldo and saldo1 <= saque 
     
 # ASSOCIAÇÃO
 
