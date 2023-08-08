@@ -20,7 +20,7 @@ print(float(100))
 print(51 / 3) # Aqui será realizada a divisão e o resultado mostrará os quebrados
 print(51 // 3) # Aqui será realizada a divisão e as barras "//" duplas indicam que será retornado o valor inteiro da divisão
 
-#nome1 = input("Informe o seu nome: ") # o input faz com que o texto seja exibido na tela para o usuário inserir um dado, esse dado inserido será atribuido a variável nome
+# nome1 = input("Informe o seu nome: ") # o input faz com que o texto seja exibido na tela para o usuário inserir um dado, esse dado inserido será atribuido a variável nome
 
 nome = "Gabriel"
 sobrenome = "Silva"
