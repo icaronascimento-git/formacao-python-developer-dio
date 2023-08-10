@@ -92,8 +92,67 @@ Aqui é possível acompnahar todas as notações que fiz durante a realização 
 			i. A função built input é utilizada quando queremos ler dados de entrada padrão (teclado). Ela recebe um argumento do tipo string, que é exibido para o usuário na saída padrão (tela). A função lê a entrada, converte para string e retorna o valor.
 		b. Lendo valores com a função print
 			i. A função built print é utilizada quando queremos exibir dados na saída padrão (tela). Ela recebe um argumento obrigatório do tipo varargs de objetos e 4 argumentos opcionais (sep, end, file e flush). Todos os objetos são convertidos para string, separados por sep e terminados por end. A string final é exibida para o usuário
-	
-	
+
+**CURSO 03: Tipos de Operadores**
+
+
+	1. Tipos de Operadores
+		a. O que são?
+			i. Os operadores aritméticos executam operações matemáticas, como adição, subtração com operandos
+		b. Precedência de operadores
+			i. Na matemática existe uma regra que indica quais operações devem ser executadas primeiro. Isso é útil pois ao analisar uma expressão, a depender da ordem das operações o valor pode ser diferente.
+			ii. A definição indica a seguinte ordem como a  correta:
+				i. Parêntesis
+				ii. Expoentes
+				iii. Multiplicações e divisões (da esquerda para a direita)
+				iv. Somas e subtrações (da esquerda para a direita)
+	2. Operadores de Comparação
+		a. O que são?
+			i. São operadores utilizados pra comparar 2 valores
+	3. Operadores de Atribuição
+		a. O que são?
+			i. São operadores utilizados para definir o valor inicial ou sobrescrever o valor de uma variável.
+	4. Operadores Lógicos
+		a. O que são?
+			i. São operadores utilizados em conjunto com os operadores de comparação, para montar uma expressão lógica. Quando um operador de comparação é utilizado, o resultado retornado é um booleano, dessa forma podemos combinar operadores de comparação com os lógicos.
+	5. Operadores de Identidade
+			a. O que são?
+				i. São operadores utilizados para comparar se dois objetos testados ocupam a mesma posição na memória.
+	6. Operadores de Associação
+		a. O que são?
+			i. São operadores utilizados para 
+
+**CURSO 04: Estrutura Condicionais e de Repetição
+	1. Indentação e Blocos
+		a. O que é indentação?
+			i. Indentar código é uma forma de manter o código fonte mais legível e manutenível. Mas em Python ela exerce um segundo papel, através da indentação o interpretador consegue determinar onde um bloco de comando inicia e onde ele termina
+		b. Bloco de Comandos
+			i. As linguagens de programação costuma utilizar caracteres ou palavras para terminar o início e fim do bloco. Em Java e C, por exemplo utiliza-se chaves.
+		c. Utilizando espaços
+			i. Existe uma convenção em Python, que define as boas práticas para escrita de código na linguagem. Nesse documento é indicado utilizar 4 espaços em branco por nível de indentação, ou seja, a cada novo bloco adicionamos 4 novos espaços em branco.
+		
+	2. Estruturas Condicionais
+		a. O que são?
+			i. A estrutura condicional permite o desvio de fluxo de controle, quando determinadas expressões lógicas são atendidas.
+		b. IF
+			i. Para criar uma estrutura condicional simples, composta por um único desvio, podemos utilizar a palavra reservada if. O comando irá testar a expressão lógica, e em caso de retorno verdadeiro as ações presentes no bloco de código do if serão executadas.
+		c. IF/ELSE
+			i. Para criar uma estrutura condicional com dois desvios, podemos utilizar as palavras reservadas IF e ELSE. Como sabemos se a expressão lógica testada no IF for verdadeira, então o bloco de código IF será executado. Caso contrário o bloco de código do ELSE será executado.
+		d. IF/ELIF/ELSE
+			i. Em alguns cenários queremos mais de dois desvios, para isso podemos utilizar a palavra reservada ELIF. O ELIF é composto por uma nova expressão lógica, que será testada e caso retorne verdadeiro o bloco de código do ELIF será executado. Não existe um número máximo de ELIFS que podemos utilizar, porém evite criar grandes estruturas condicionais, pois ela aumentam a complexidade do código.
+		e. IF ANINHADO
+			i. Podemos criar estruturas condicionais aninhadas, para isso basta adicionar estruturas if/elif/else dentro do bloco de códigos de estruturas if/elif/else.
+		f. IF ternário
+			i. O if ternário permite escrever uma condição em uma única linha. Ele é composto por três partes, a primeira parte é o retorno caso a expressão retorne verdadeiro, a segunda parte é a expressão lógica e a terceira parte é o retorno caso a a expressão não seja atendida.
+	3. Estruturas de repetição
+		a. O que são?
+			i. São estruturas utilizadas para repetir um trecho de código um determinado número de vezes. Esse trecho número pode ser conhecido previamente ou determinado através de uma expressão lógica.
+		b. Comando FOR
+			i. O comando FOR é usado para percorrer um objeto iterável. Faz sentido usar for quando sabemos o número exato de vezes que nosso bloco de código deve ser executado, ou quando queremos percorrer um objeto iterável.
+		c. Função range
+			i. Range é uma função built-in do Python, ela é usada para produzir uma sequência de número interios a partir de um início (inclusivo) para um fim (exxclusivo). Ela recebe 3 argumentos: stop (obrigatório), start (opcional) e step (opcional).
+		d. Comando WHILE
+O comando while é usado para repetir um bloco de código várias vezes. Faz sentido usar while quando não sabemos o número exato de vezes que nosso bloco de código deve ser executado.
 			
 
 			
