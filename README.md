@@ -123,6 +123,7 @@ Aqui é possível acompnahar todas as notações que fiz durante a realização 
 			i. São operadores utilizados para 
 
 **CURSO 04: Estrutura Condicionais e de Repetição
+
 	1. Indentação e Blocos
 		a. O que é indentação?
 			i. Indentar código é uma forma de manter o código fonte mais legível e manutenível. Mas em Python ela exerce um segundo papel, através da indentação o interpretador consegue determinar onde um bloco de comando inicia e onde ele termina
@@ -152,8 +153,7 @@ Aqui é possível acompnahar todas as notações que fiz durante a realização 
 		c. Função range
 			i. Range é uma função built-in do Python, ela é usada para produzir uma sequência de número interios a partir de um início (inclusivo) para um fim (exxclusivo). Ela recebe 3 argumentos: stop (obrigatório), start (opcional) e step (opcional).
 		d. Comando WHILE
-O comando while é usado para repetir um bloco de código várias vezes. Faz sentido usar while quando não sabemos o número exato de vezes que nosso bloco de código deve ser executado.
+			O comando while é usado para repetir um bloco de código várias vezes. Faz sentido usar while quando não sabemos o número exato de vezes que nosso bloco de código deve ser executado.
 			
 
 			
-
