@@ -33,8 +33,46 @@ for chave in contatos:
 for chave, valor in contatos.items():
     print(chave, valor)
 
+# MÉTODOS DA CLASSE .dict
 
+# .clear
+#Utilizado para limpar o dicionário. Ex: contatos.clear() irá limpar todo o dicionário.
 
+# .copy
+# Utilizado para alterar os dados do dicionário, mantendo o original intacto.
 
+# .fromkeys
+# Ele cria chaves para o dicionário
+dict.fromkeys(["sexo", "nacionalidade"]) # Nesse formato cria-se chaves para o dicionário sem adicionar nehum valor
+
+dict.fromkeys(["cidade", "rua"], "vazio") # Nesse formato vai ser criado um conjunto de chaves e será inserido um valor padrão nela.
+
+# .get
+# É uma forma de acessar os dados do seu dicionário.
+
+contatos.get("chave") # Retorna None pois esse valor não existe
+contatos.get("chave, {}") # Aqui ele vai procurar chave, se não encontrar, retornará vazio
+contatos.get("nascimento@gmail.com", {}) # Vai retornar os dados contato, se não existisse retornaria vazio por conta do segundo argumento {}.
+
+# .pop
+# Esse método vai apagar a chave do seu dicionário.  
+
+# .popitem
+# É parecido com o .pop. A diferença é que a chave não é informada, e ele irá retirando os itens em sequência.
+contatos.popitem()
+
+# .setdefault
+contatos.setdefault("nome", "Guilherme") # O setsdeafalt verifica se o argumento passado entre as chaves existe no dicionário. Se existir ele vai retornar o valor se não existir e vai passar o valor informado em seu argumento
+# No exemplo acima a chave já possuí um valor, se não possuise o método passaria o nome "Guilherme"
+
+# .update
+contatos.update({"gabriela@gmail.com": {"nome", "Gabriela", "telefone", "38 55555-5555"}}) # O .update vai atualizar uma chave existente como os novos parâmetros informados. Caso a chave não exista, ele vai criar nova chave.
+
+# in
+# o in verifica se existe chaves no dicionário
+resultado = "idade" in "icaro@gmail.com"
+
+# del   . é usado para remover chaves do dicionário, e deverá passar qual parametro quer remover.
+del contatos["nascimento@gmail.com"]["telefone"]
 
 
